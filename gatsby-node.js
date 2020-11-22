@@ -50,7 +50,6 @@ exports.createPages = ({ graphql, actions }) => {
                   excerpt
                   frontmatter {
                     title
-                    image
                     date(formatString: "DD MMMM YYYY")
                   }
                   fields {
