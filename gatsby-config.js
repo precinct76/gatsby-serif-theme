@@ -2,7 +2,7 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif Theme',
+    title: 'outpost76',
     description: 'my theme'
   },
   plugins: [
@@ -34,7 +34,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid || 'UA-XXX-1',
+        trackingId: guid || 'G-8NJWLKL7VR',
         // Puts tracking script in the head instead of the body
         head: false
       }
